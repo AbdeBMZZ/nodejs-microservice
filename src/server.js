@@ -50,6 +50,7 @@ app.post("/signup", async (req, res) => {
     });
   }
 
+  //returns user id
   return res.json({
     ...data.insert_users_one,
   });
